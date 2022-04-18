@@ -1,0 +1,49 @@
+Uso GIT:
+
+Como inicializar repositórios:
+Para criar um novo repositório, você vai usar o comando git init. git init é um comando único que você usa durante a configuração inicial de um novo repositório. A execução desse comando cria um novo subdiretório.
+
+Como fazer o primeiro commit em um projeto:
+
+Um commit é a realização de um conjunto de mudanças provisórias permanentes, marcando o fim de uma transação e proporcionando durabilidade às transações ACID. O registro de commits é chamado de log de commits.
+Basta utilizar o seguinte comando:
+
+git commit -m "nome do commit"
+
+Como realizar commit de mudanças:
+
+Utlizando o comando git commit sem o "-m".
+
+Como compartilhar suas mudanças com outras pessoas da equipe:
+
+Basta mudar a visibilidade da equipe.
+
+Como desfazer alterações:
+
+Os commits são capturas instantâneas de um ponto no tempo ou pontos de interesse ao longo do cronograma do histórico de um projeto. Além desse recurso, vários cronogramas podem ser gerenciados por meio do uso de ramificações. Ao "desfazer" no Git, você, em geral, está voltando no tempo ou para outro cronograma em que os erros não aconteceram.
+
+Como resolver conflitos de merge:
+
+Em termos simples, um conflito de merge no Git ocorre quando dois desenvolvedores alteram o mesmo trecho de código e a única maneira de resolver este conflito é através de uma intervenção manual, alterando o código em questão e submetendo um novo commit.
+
+Como usar branches:
+
+Em qualquer projeto Git, podemos visualizar todos os branches digitando o seguinte comando:
+git branch
+Se não nenhum branch tiver sido criado, o terminal não vai mostrar nenhuma informação. Não se preocupe, criar um branch é realmente simples:
+git branch [new_branch]
+
+Como encontrar bugs (git diff, git log, git bisect, git blame):
+
+git-diff - Exibe as mudanças entre os commits, o commit, a árvore de trabalho, etc
+
+git-log - Mostra os logs
+
+git-bisect - Utilize a pesquisa binária para localizar o commit que introduziu um bug
+
+git-blame - Exiba qual revisão e qual foi o autor que alterou cada linha de um arquivo pela última vez.
+
+Como escolher determinados commits:
+
+Usando git cherry-pick com a lista dos commits que desejar.
+
